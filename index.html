@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script src="https://kit.fontawesome.com/85f055cba7.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="ress/shopping-cart.png">
+  <title>shopping_cart_main</title>
+</head>
+<body>
+  <div class="notif">
+    <button id="button-achat" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+      <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-cart4" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/></svg><span id="prodNum">0</span>
+    </button>
+  </div>
+    <header>
+      <div class="titre">
+        <img src="ress/shopping-cart.png" alt="logo" width="50px"> 
+        <h1>Shopping Cart</h1>
+      </div>
+    </header>
+    <main class="container">
+      <div>
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="ress/nike1.jpg" class="card-img-top" alt="nike1">
+            <div class="card-body">
+              <center><h5 class="card-title">NikeCourt Air Zoom GP Turbo</h5></center>
+              <center><i class="far fa-heart fa-3x"></i></center>
+              <div class="buy">
+                <span>$185</span>
+                <button type="button" class="btn btn-primary">Add to your cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="ress/nike2.jpg" class="card-img-top" alt="nike2">
+            <div class="card-body">
+              <center><h5 class="card-title">NikeCourt Heritage Tennis Bag</h5></center>
+              <center><i class="far fa-heart fa-3x"></i></center>
+              <div class="buy">
+                <span>$48</span>
+                <button type="button" class="btn btn-primary">Add to your cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="ress/nike3.jpg" class="card-img-top" alt="nike3">
+            <div class="card-body">
+              <center><h5 class="card-title">Nike Brasilia 9.0  Backpack
+              </h5></center>
+              <center><i class="far fa-heart fa-3x"></i></center>
+              <div class="buy">
+                <span>$48</span>
+                <button type="button" class="btn btn-primary">Add to your cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="ress/nike4.jpg" class="card-img-top" alt="nike4">
+            <div class="card-body">
+              <center><h5 class="card-title">NikeCourt Heritage86 Tennis Cap</h5></center>
+              <center><i class="far fa-heart fa-3x"></i></center>
+              <div class="buy">
+                <span>$32</span>
+                <button type="button" class="btn btn-primary">Add to your cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img id="wilson1" src="ress/wilson1.jpg" class="card-img-top" alt="wilson1">
+            <div class="card-body">
+              <center><h5 class="card-title">Pro Staff RF97 Limited Edition 2020 Tennis Racket</h5></center>
+              <center><i class="far fa-heart fa-3x"></i></center>
+              <div class="buy">
+                <span>$249</span>
+                <button type="button" class="btn btn-primary">Add to your cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img id="wilson2" src="ress/wilson2.jpg" class="card-img-top" alt="wilson2">
+            <div class="card-body">
+              <center><h5 class="card-title">Pro Staff RF97 Autograph Tennis Racket</h5></center>
+              <center><i class="far fa-heart fa-3x"></i></center>
+              <div class="buy">
+                <span>$159</span>
+                <button type="button" class="btn btn-primary">Add to your cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="ress/wilson3.jpg" class="card-img-top" alt="wilson3">
+            <div class="card-body">
+              <center><h5 class="card-title">US Open Tennis Racket</h5></center>
+              <center><i class="far fa-heart fa-3x"></i></center>
+              <div class="buy">
+                <span>$50</span>
+                <button type="button" class="btn btn-primary">Add to your cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="ress/wilson4.jpg" class="card-img-top" alt="wilson4">
+            <div class="card-body">
+              <center><h5 class="card-title">FIBA 3x3 Official Game Basketball</h5></center>
+              <center><i class="far fa-heart fa-3x"></i></center>
+              <div class="buy">
+                <span>$34</span>
+                <button type="button" class="btn btn-primary">Add to your cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="ress/wilson5.jpeg" class="card-img-top" alt="wilson5">
+            <div class="card-body">
+              <center><h5 class="card-title">The Duke Decal NFL Football</h5></center>
+              <center><i class="far fa-heart fa-3x"></i></center>
+              <div class="buy">
+                <span>$129</span>
+                <button type="button" class="btn btn-primary">Add to your cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="ress/wilson6.jpg" class="card-img-top" alt="wilson6">
+            <div class="card-body">
+              <center><h5 class="card-title">2020 A2K Infield Baseball Glove</h5></center>
+              <center><i class="far fa-heart fa-3x"></i></center>
+              <div class="buy">
+                <span>$359</span>
+                <button type="button" class="btn btn-primary">Add to your cart</button>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <div class="col mb-4">
+          <div class="card">
+            <img src="ress/adidas1.jpg" class="card-img-top" alt="adidas1">
+            <div class="card-body">
+              <center><h5 class="card-title">Adidas Tennis T-shirt</h5></center>
+              <center><i class="far fa-heart fa-3x"></i></center>
+              <div class="buy">
+                <span>$37</span>
+                <button type="button" class="btn btn-primary">Add to your cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img id="adidas2" src="ress/adidas2.jpg" class="card-img-top" alt="adidas2">
+            <div class="card-body">
+              <center><h5 class="card-title">Adidas Tennis T-shirt2</h5></center>
+              <center><i class="far fa-heart fa-3x"></i></center>
+              <div class="buy">
+                <span>$55</span>
+                <button type="button" class="btn btn-primary">Add to your cart</button>
+              </div> 
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="container main-footer-container">
+        <h3 class="band-name">The Yelo Store</h3>
+        <ul id="logolist" class="nav footer-nav">
+            <li>
+                <a href="https://www.youtube.com" target="_blank">
+                    <img src="ress/youtube.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.spotify.com" target="_blank">
+                    <img src="ress/spotify-sketch.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="ress/facebook.png">
+                </a>
+            </li>
+        </ul>
+    </div>
+    </footer> 
+    <div>      <!-- Modal -->
+      <div class="modal fade modal-xl" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content ">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+              </svg> My Cart</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body ">
+              <table class="table table-dark">
+                <thead>
+                  <tr>
+                    <th scope="col">PRODUCT</th>
+                    <th scope="col">DETAILS</th>
+                    <th scope="col">QUANTITY</th>
+                    <th scope="col">PRICE</th>
+                    <th scope="col">TOTAL</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- <tr>
+                    <th scope="row"><img id="table-images" src="ress/nike1.jpg"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                    </svg></th>
+                    <td>Nike Air Zoom</td>
+                    <td><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
+                      <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z"/>
+                    </svg>
+                    <span id="Q">1</span>
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z"/>
+                    </svg><br><br></td>
+                    <td>$185</td>
+                    <td id="td-total">$185 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x-square-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm9.854 4.854a.5.5 0 0 0-.708-.708L8 7.293 4.854 4.146a.5.5 0 1 0-.708.708L7.293 8l-3.147 3.146a.5.5 0 0 0 .708.708L8 8.707l3.146 3.147a.5.5 0 0 0 .708-.708L8.707 8l3.147-3.146z"/>
+                    </svg></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><img id="table-images" src="ress/nike2.jpg"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                    </svg></th>
+                    <td>Tennis Bag</td>
+                    <td><svg id="plusbutton" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
+                      <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z"/>
+                    </svg>
+                    <span id="Q">1</span>
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z"/>
+                    </svg><br></td>
+                    <td>$48</td>
+                    <td id="td-total">$48 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x-square-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm9.854 4.854a.5.5 0 0 0-.708-.708L8 7.293 4.854 4.146a.5.5 0 1 0-.708.708L7.293 8l-3.147 3.146a.5.5 0 0 0 .708.708L8 8.707l3.146 3.147a.5.5 0 0 0 .708-.708L8.707 8l3.147-3.146z"/>
+                    </svg></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><img id="table-images" src="ress/nike3.jpg"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                    </svg></th>
+                    <td>Backpack</td>
+                    <td><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
+                      <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z"/>
+                    </svg>
+                    <span id="Q">1</span>
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z"/>
+                    </svg><br></td>
+                    <td>$48</td>
+                    <td id="td-total">$48 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x-square-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm9.854 4.854a.5.5 0 0 0-.708-.708L8 7.293 4.854 4.146a.5.5 0 1 0-.708.708L7.293 8l-3.147 3.146a.5.5 0 0 0 .708.708L8 8.707l3.146 3.147a.5.5 0 0 0 .708-.708L8.707 8l3.147-3.146z"/>
+                    </svg></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><img id="table-images" src="ress/wilson4.jpg"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                    </svg></th>
+                    <td>basketball</td>
+                    <td><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
+                      <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z"/>
+                    </svg>
+                    <span id='Q'>1</span>
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z"/>
+                    </svg><br></td>
+                    <td>$34</td>
+                    <td id="td-total">$34 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x-square-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm9.854 4.854a.5.5 0 0 0-.708-.708L8 7.293 4.854 4.146a.5.5 0 1 0-.708.708L7.293 8l-3.147 3.146a.5.5 0 0 0 .708.708L8 8.707l3.146 3.147a.5.5 0 0 0 .708-.708L8.707 8l3.147-3.146z"/>
+                    </svg></td>
+                  </tr> -->
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <div>The Price Total : <span>0</span></div>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+              <a href="orderSummary.html"><button type="button" class="btn btn-primary">Validation</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
