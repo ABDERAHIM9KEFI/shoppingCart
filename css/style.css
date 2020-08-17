@@ -60,6 +60,13 @@ img{
   width: 100px;
   margin-right: 40px;
 }
+th >i {
+  margin-right: 10px;
+  cursor: pointer;
+}
+th >img {
+  margin-right: 30px;
+}
 #table-images{
   width :3em;
   height: 3em; 

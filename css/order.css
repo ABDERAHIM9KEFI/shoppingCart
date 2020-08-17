@@ -44,7 +44,7 @@ h1{
   background-color: #10ac84;
   color: white;
   padding: .25em 0;
-  margin-top: 10px;
+  margin-top: 64px;
 }
 
 .main-footer-container {
@@ -65,6 +65,7 @@ h1{
 .footer-nav img {
   width: 30px;
   height: 30px;
+  margin-right: 40px;
 }
 #logolist{
   justify-content: flex-end;
