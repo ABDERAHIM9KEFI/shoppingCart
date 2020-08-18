@@ -90,7 +90,8 @@ function addToCartClicked(event) {
   function removeCartItem(event) {
     var buttonClicked = event.target
     buttonClicked.parentElement.parentElement.remove()
-    var totalremoved = parseInt(buttonClicked.parentElement.nextElementSibling.nextElementSibling.nextElementSibling.innerHTML.replace('$',''))
+    var totalremoved = parseInt(buttonClicked.parentElement.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.innerHTML.replace('$',''))
+    console.log(totalremoved)
     sumtotal.innerHTML=sumtotal.innerHTML.replace('$','')- totalremoved + "$"
     productNumber--
     prodNum.innerHTML = productNumber 
